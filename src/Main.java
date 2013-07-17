@@ -21,6 +21,7 @@ public class Main {
 			System.out.println(loading);
 		}
 		System.out.println("100% Done!");
+		White.Woof();
 	}
 
 }
