@@ -13,6 +13,14 @@ public class Main {
 		int derpy = Integer.parseInt(input.nextLine());
 		double r = derpy+d;
 		System.out.println(r);
+		int loading = 0;
+		System.out.println("This code is now loading...");
+		while (loading<100)
+		{
+			loading ++;
+			System.out.println(loading);
+		}
+		System.out.println("100% Done!");
 	}
 
 }
