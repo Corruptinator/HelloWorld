@@ -11,7 +11,8 @@ public class Helloworld {
 		System.out.println(d);
 		System.out.println("Please enter your new number");
 		int derpy = Integer.parseInt(input.nextLine());
-		System.out.println(derpy);
+		double r = derpy+d;
+		System.out.println(r);
 	}
 
 }
