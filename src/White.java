@@ -1,7 +1,7 @@
 public class White{
 	public static void Woof(){
 		println("Woof!");
-		for(int i = 0; i > 2; i++){
+		for(int i = 0; i < 4; i++){
 			String string1 = new String("Integer 'i': ");
 			String string2 = new String(Integer.toString(i));
 			String string3 = string1.concat(string2);
