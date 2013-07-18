@@ -19,6 +19,14 @@ public class Main {
 		{
 			loading ++;
 			System.out.println(loading);
+			try
+			   {
+			   Thread.sleep( 300 );
+			   }
+			catch ( InterruptedException e )
+			   {
+			   System.out.println( "awakened prematurely" );
+			   }
 		}
 		System.out.println("100% Done!");
 		White.Woof();
